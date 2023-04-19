@@ -1,9 +1,7 @@
-<p-tabMenu [model]="listMenu" [activeItem]="activeItem">
+<app-menu-header></app-menu-header>
+<p-toast></p-toast>
 
-
-</p-tabMenu>
-
-<div class="card">
+<div class="card m-4">
     <div class="flex justify-content-center flex-wrap card-container">
         <p-panel header="Lista de Empleados">
             <p-table [columns]="columnTabla" [value]="listEmpleado" [tableStyle]="{ 'min-width': '50rem' }"
